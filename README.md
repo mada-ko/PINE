@@ -9,7 +9,6 @@ This repository contains a MATLAB implementation of a deep-learning-assisted pha
 To run the code in the repository, you will need the following:
 - MATLAB R2023a or later
 - Deep Learning Toolbox
-- Image Processing Toolbox
 
 ## Citation
 

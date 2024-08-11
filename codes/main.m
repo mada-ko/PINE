@@ -1,12 +1,8 @@
 clc, clear, close all;
 addpath(genpath("functions/"));
 
-%%
-diffFileName = '../data/diffraction_dose08.tif';
-posFileName = '../data/position.csv';
-
 % load data 
-[diffData,illumPos] = loadData(diffFileName, posFileName);
+load('../data/data_low_dose', 'diffData', 'illumPos');
 
 % initialize measurements
 measurements = setMeasurements(diffData,illumPos);
